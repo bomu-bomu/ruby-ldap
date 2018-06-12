@@ -19,8 +19,8 @@ jobs:
     steps:
       - checkout
         
-      - run: apt-get update
-      - run: apt-get install libldap2-dev
+      - run: sudo apt-get update
+      - run: sudo apt-get install libldap2-dev
 
       # run tests!
       # - run:
